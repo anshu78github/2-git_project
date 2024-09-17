@@ -3,27 +3,6 @@ from tkinter import filedialog, font, colorchooser
 from tkinter.messagebox import showinfo
 
 
-# class helloFromGUI:
-#     def __init__(self,root):
-#         self.root=root
-#         self.root.geometry("400x400")
-#         self.root.title("Greetings")
-
-#         self.button=tk.Button(self.root,text="Greet",command="buttonpressed",font=("Arial", 14))
-#         self.button.pack()
-
-#     def buttonpressed():
-#         sayHello=tk.Text(root,text="Hello from ANSHU, this is tkinter in python",font=("Arial", 14))
-#         sayHello.pack(fill="both",expand=1)
-
-
-# if __name__ == "main":
-#     root=tk.Tk()
-#     instance1=helloFromGUI(root)
-#     root.mainloop()
-
-
-
 # Create the main application window
 root = tk.Tk()
 root.title("Basic Tkinter App")
